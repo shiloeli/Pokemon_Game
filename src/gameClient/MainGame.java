@@ -39,7 +39,7 @@ public class MainGame implements Runnable {
 
         //Create game
         game_service game = Game_Server_Ex2.getServer(scenario_num); // you have [0,23] games
-        game.login(314969379);
+        game.login();
 
         //Load graph
         dw_graph_algorithms algoGraph = new DWGraph_Algo();
